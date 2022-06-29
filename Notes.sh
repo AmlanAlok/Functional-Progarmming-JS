@@ -45,3 +45,11 @@ added 224 packages, and audited 225 packages in 5s
   run `npm fund` for details
 
 found 0 vulnerabilities
+
+:'
+To run normal JS files
+node filepath
+
+To run ES6 JS files
+npx babel-node filepath
+'
