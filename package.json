@@ -1,0 +1,25 @@
+{
+  "name": "Functional-Progarmming-JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmlanAlok/Functional-Progarmming-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmlanAlok/Functional-Progarmming-JS/issues"
+  },
+  "homepage": "https://github.com/AmlanAlok/Functional-Progarmming-JS#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6"
+  }
+}
