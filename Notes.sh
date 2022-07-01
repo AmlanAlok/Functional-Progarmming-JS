@@ -232,3 +232,15 @@ amlanalok@Amlans-MacBook-Pro 1-Intro % npx eslint .
 
 ✖ 7 problems (5 errors, 2 warnings)
   4 errors and 0 warnings potentially fixable with the `--fix` option.
+
+
+:'How to run normal JS code'
+amlanalok@Amlans-MacBook-Pro Functional-Progarmming-JS % node 2-first-class-func/funcs.js
+5
+6
+
+:''
+amlanalok@Amlans-MacBook-Pro Functional-Progarmming-JS % npx babel-node 2-first-class-func/funcs.js                 
+5
+6 
+
