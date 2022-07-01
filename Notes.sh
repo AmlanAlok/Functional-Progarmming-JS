@@ -1,4 +1,11 @@
-:'We are tryin to learn funcitonal programming with Javascript ES6.'
+:'We are tryin to learn funcitonal programming with Javascript ES6.
+ES6 provides in-built support to functional concepts.
+1. Map
+2. Filter
+3, Reduce
+4. Sort
+This is very helpful when working with Objects and Arrays
+'
 
 
 :'To setup a directory as a npm package run below command'
