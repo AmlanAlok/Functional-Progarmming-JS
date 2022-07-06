@@ -1,3 +1,7 @@
+/**
+ * node 3-Functional/2-map.js
+ */
+
 const numbers = [1, 2, 3, 4, 5]
 
 const double = x => x*2;
