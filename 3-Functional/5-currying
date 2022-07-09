@@ -1,0 +1,36 @@
+/**
+ * node 3-Functional/5-currying
+ */
+const match = function( actual, expected){
+    if (actual !== expected){
+        console.log(`${actual} !== ${expected}`)
+        throw Error
+    }
+}
+
+const add = (x,y,z) => x+y+z
+
+const addPartial = x => (y,z) => add(x,y,z)
+
+const add5 = addPartial(5)
+const add567 = add5(6,7)
+
+match(18, add567)
+match(add(5,6,7), add567)
+
+const addPartial2 = (x,y) => z => add(x,y,z)
+
+const add56 = addPartial2(5,6)
+const add567_2 = add56(7)
+
+match(add(5,6,7), add567_2)
+
+const addPartial3 = x => y => z => add(x,y,z)
+
+const add5_3 = addPartial3(5)
+const add56_3 = add5_3(6)
+const add567_3 = add56_3(7)
+
+match(add(5,6,7), add567_3)
+
+console.log('A')
